@@ -1,14 +1,13 @@
 # title: "HMDA Data Analysis"
 # author: "Yogesh"
 # date: "December 09, 2016"
-# output: html_document
 
  
 #**********************************************************************************************************
 # Creation of the dashboard using the shiny-dashboard commands 
 
 ui <- dashboardPage(
-  dashboardHeader(title = "CapitalOne"),
+  dashboardHeader(title = "HMDA"),
   # Sidebar content
   dashboardSidebar(
     sidebarMenu(
